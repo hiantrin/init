@@ -1,0 +1,12 @@
+#!/bin/bash
+
+mkdir $1
+cd $1
+touch Makefile
+echo -e "NAME = $1\n\nFLAG = -Wall -Wextra -Werror\n\nall:\n\n\nclean:\n\n\nfclean: clean\n\nre: fclean all" >> Makefile
+touch $1.h
+echo -e "#ifndef $1_h\n# define $1_h\n\n\n\n#endif" >> $1.h
+touch author
+echo "$2" >> author
+touch main.c
+echo -e "#include "$1.h"" >> main.c

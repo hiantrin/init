@@ -1,0 +1,15 @@
+name of this services daemon
+
+[ - ]  console-setup.sh
+[ + ]  cron
+[ + ]  dbus
+[ - ]  hwclock.sh
+[ - ]  keyboard-setup.sh
+[ + ]  kmod
+[ + ]  networking
+[ + ]  procps
+[ - ]  rsync
+[ + ]  rsyslog
+[ + ]  ssh
+[ - ]  sudo
+[ + ]  udev

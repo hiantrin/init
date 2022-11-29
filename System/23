@@ -1,0 +1,5 @@
+connexion avec session ssh en tapant cette commande:
+$> ssh username@ip
+
+connexion avec session graphique :
+on se deconnecte de la session actuelle , puis on tapant le login de nouveau user et son mot de passe , et voila on est connecte
